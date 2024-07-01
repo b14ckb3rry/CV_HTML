@@ -1,0 +1,149 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+  font-family: "Nunito", sans-serif;
+}
+
+body {
+  background-color: #c3c5dd;
+}
+
+.main {
+  min-height: auto;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.page {
+  background-color: white;
+  width: 60%;
+  height: auto;
+  display: flex;
+}
+
+/* Left Side  */
+
+.left-side {
+  flex-basis: 25%;
+  background-color: #0099a7;
+  padding: 2rem;
+}
+.image {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid #bac3ff;
+  padding: 4px;
+}
+.name {
+  margin: 20px auto;
+  font-size: 30px;
+}
+.student {
+  margin: 20px auto;
+}
+.center {
+  text-align: center;
+}
+.t1color {
+  color: #121839;
+}
+.t2color {
+  color: #121839;
+}
+.title {
+  font-weight: 700;
+  margin-bottom: 20px;
+
+  font-size: 24px;
+}
+.flex {
+  display: flex;
+}
+.flex-row {
+  flex-direction: row;
+}
+.flex-col {
+  flex-direction: column;
+}
+.info-div {
+  gap: 30px;
+  margin-top: 20px;
+}
+.contact,
+.time {
+  gap: 10px;
+
+  align-items: center;
+  margin-top: 10px;
+}
+.icon {
+  font-size: 20px;
+}
+.skills {
+  gap: 10px;
+}
+.skill {
+  align-items: center;
+  justify-content: space-between;
+}
+.skillname {
+  font-weight: 600;
+}
+.link {
+  text-decoration: none;
+}
+.link:hover {
+  text-decoration: underline;
+}
+
+/* Right Side  */
+
+.right-side {
+  flex-basis: 75%;
+  background-color: #91ffff;
+  padding: 2rem;
+}
+.right-section {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.education,
+.personal-info,
+.hobby {
+  background-color: white;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0px 2px 3px #509c9f;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.degree {
+  margin-bottom: 10px;
+  font-size: 22px;
+}
+.institute,
+.address,
+.dob,
+.hobbyname {
+  font-weight: 600;
+  font-size: 14px;
+}
+.period,
+.loc {
+  font-size: 14px;
+}
+.fulladress,
+.fullhobby {
+  align-items: center;
+  gap: 10px;
+}
